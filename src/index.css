@@ -1,0 +1,28 @@
+.main-container{
+    text-align: center;
+}
+.title{
+    color: rgb(76, 76, 212);
+    font-family: 'Josefin Sans', sans-serif;
+}
+.table-container{
+    margin: 25px auto 0 auto;
+}
+.btnedelete{
+
+ margin: 30px 0 30px 0;
+
+    }
+.tash{
+    width: 20px;
+    height: 20px;
+    margin: 0 20px 0 70px;
+    background-image: url('../img/trash-solid.svg');
+    background-repeat: no-repeat;
+    }
+.edit{
+    width: 20px;
+    height: 20px;    
+    background-image: url('../img/pen-solid.svg');
+    background-repeat: no-repeat;
+    }

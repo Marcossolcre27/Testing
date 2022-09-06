@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">   
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div data-testid="not empty text" class="main-container">
+        <h1 class="title">List with Asynchronsim</h1>
+        <form id="form">
+            <input type="text" placeholder="inserta un nombre" class="name" required>
+            <button class="btn" type="submit">Send</button>
+        </form>
+    
+        <table class="table-container">
+            <thead>
+                <tr id="thead">
+                    <td id="idtd">ID</td>
+                    <td id="nametd">Nombre</td>
+                </tr>
+            </thead>
+            
+            <tbody id="resultados"></tbody>
+        </table>
+    </div>
+    <script type="module" src="../src/scripts/utils/init.js"></script>    
+</body>
+</html>
